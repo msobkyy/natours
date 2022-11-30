@@ -1,0 +1,24 @@
+doctype html
+html 
+    head
+        block head
+            title Natours | #{title}
+            meta(charset="UTF-8" )
+            link(rel="stylesheet" href="/css/style.css")
+            link(rel="shortcut icon" type="image/png" href="/img/favicon.png")
+            link(name="viewport" content="width=device-width, initial-scale=1.0")
+            link(href="https://fonts.googleapis.com/css?family=Lato:300,300i,700" rel="stylesheet")
+            script(src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js" )
+
+
+    body
+        // HEADER
+        include _header
+        //CONTENT
+
+        block content
+            h1 placeholder heading
+
+        //FOOTER
+        include _footer
+        script(src="/js/index.js")
